@@ -54,7 +54,4 @@ async def upsert_post(post: Post):
     return JSONResponse(content=posts_storage)
 
 
-# - http://127.0.0.1:8000/ping
-# - http://127.0.0.1:8000/home
-# - http://127.0.0.1:8000/une-route-inconnue (pour tester le 404)
 
